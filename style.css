@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #191919;
+}
+
+.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  font-family: "Roboto Mono";
+}
+
+.p5Canvas {
+  display: block;
+  border: 1px solid white;
+  position: absolute;
+  transform: translateX(100%);
+}
